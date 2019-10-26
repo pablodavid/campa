@@ -28,10 +28,11 @@
 	}
 	</script>
 	<script type="text/javascript">
-		if ( navigator.userAgent.toLowerCase().indexOf('safari') == -1)
-		{
-			document.location ="http://mob.campamentodemusicos.cl/";
-  		}
+	var dispositivo = navigator.userAgent.toLowerCase();
+	if( dispositivo.search(/safari/) > -1 )
+	{
+		document.location ="http://mob.campamentodemusicos.cl/";
+	}
 	</script>
 		
     </head>
