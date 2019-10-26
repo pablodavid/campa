@@ -23,9 +23,13 @@
 	<script type="text/javascript">
 	var dispositivo = navigator.userAgent.toLowerCase();
 	if( dispositivo.search(/iphone|ipod|ipad|android/) > -1 )
-		{
-			document.location ="http://mob.campamentodemusicos.cl/";
-		}
+	{
+		document.location ="http://mob.campamentodemusicos.cl/";
+	}
+	if ( navigator.userAgent.toLowerCase().indexOf('safari') == -1)
+	{
+		document.location ="http://mob.campamentodemusicos.cl/";
+  	}
 	</script>
 		
     </head>
