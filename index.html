@@ -20,6 +20,11 @@
 		
 		
 		<script type="text/javascript">
+			var dispositivo = navigator.userAgent.toLowerCase().indexOf("android");
+			if( isAndroid > -1 )
+			{
+				document.location ="https://mob.campamentodemusicos.cl/";
+			}
 			var dispositivo = navigator.userAgent.toLowerCase();
 			if( dispositivo.search(/chrome/) > -1 )
 			{}
