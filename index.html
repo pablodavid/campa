@@ -18,19 +18,18 @@
         <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css">
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
-		
+		<script type="text/javascript">
+	    		var dispositivo = navigator.userAgent.toLowerCase().indexOf("android");
+			if( isAndroid > -1 )
+			{
+				document.location ="https://mob.campamentodemusicos.cl/";
+			}
+		</script>
 		<script type="text/javascript">
 			var dispositivo = navigator.userAgent.toLowerCase();
 			if( dispositivo.search(/chrome/) > -1 )
 			{}
 			else
-			{
-				document.location ="https://mob.campamentodemusicos.cl/";
-			}
-		</script>
-	    	<script type="text/javascript">
-	    		var dispositivo = navigator.userAgent.toLowerCase().indexOf("android");
-			if( isAndroid > -1 )
 			{
 				document.location ="https://mob.campamentodemusicos.cl/";
 			}
