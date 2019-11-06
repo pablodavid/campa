@@ -19,8 +19,8 @@
         <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 		
 		<script type="text/javascript">
-	    		var dispositivo = navigator.userAgent.toLowerCase().indexOf("android");
-			if( isAndroid > -1 )
+	    		var disp = navigator.userAgent.toLowerCase();
+			if( disp.search(/android/) > -1 )
 			{
 				document.location ="https://mob.campamentodemusicos.cl/";
 			}
