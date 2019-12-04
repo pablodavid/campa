@@ -103,6 +103,7 @@ h6 {
 }
 h35{
 	color: aliceblue;
+	background-color: green;
 }
 h36{
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -114,6 +115,12 @@ h37{
   font-size: 18px;
   background-color: rgba(37,37,37,1);
 }
+h38{
+  color: black;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
 .alt-font {
   font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -4333,7 +4340,7 @@ footer.short-2 .contact-action:hover {
 .product-action h2 {
   margin-bottom: 16px;
   font-weight: 600;
-}
+
 .product-action p {
   display: block;
   max-width: 520px;
